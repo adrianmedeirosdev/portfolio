@@ -1,7 +1,5 @@
 const navList = document.querySelector(".nav-list")
 const navItems = navList.querySelectorAll("li")
-
-
 navItems.forEach(navItem => {
   navItem.addEventListener("click", () => {
     var current = document.querySelectorAll('.active')
@@ -11,6 +9,10 @@ navItems.forEach(navItem => {
     }
   })
 })
+
+
+
+
 
 
 
