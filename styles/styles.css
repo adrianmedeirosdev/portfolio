@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body{
@@ -15,7 +17,7 @@ body{
   padding: 50px;
   flex-direction: column;
   align-items: center;
-  gap: 48px;
+  gap: 58px;
   color: #f5f5f5;
 }
 
@@ -24,21 +26,19 @@ a{
   text-decoration:none ;
 }
 
-
 .card-container{
-  width: 700px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: 38px;
+  gap: 48px;
   padding: 48px;
-  border-radius: 10px;
+  border-radius: 1rem;
   background-color: transparent;
   border: 1px solid #f5f5f5;
 }
 
 .me-container{
-  display: flex;
   align-items: center;
   gap: 48px;
 }
@@ -49,6 +49,10 @@ a{
   align-items: center;
   gap: 18px;
 } 
+
+.perfil-container h3{
+  font-weight: 500;
+}
 
 .perfil-img{
   width: 168;
@@ -68,46 +72,41 @@ a{
 .social-medias{
   display: flex;
   gap: 10px;
-  background-color: #f5f5f5;
   align-items: center;
   justify-content: center;
   height: 38px;
-  padding: 12px;
+  padding: 10px;
   border-radius: 50px;
 }
 
-.social-medias img{
+.social-icon{
   width: 24px;
   height: 24px;
+  color: #f5f5f5;
 }
 
-.social-medias img:hover{
+.social-icon:hover{
   width: 28px;
   height: 28px;
   transition: 0.2s;
 }
 
-.text-about-me{
-  text-align: justify;
-  text-indent: 48px;  
-}
 
 .technologies-container{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 28px;
 }
 
 .dev-icon{
-  height: 90px;
-  width: 90px;
+  height: 48px;
+  width: 48px;
 }
 
 .wrapper{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 28px;
 }
+
 .wrapper a{
   text-decoration: none;
 }
@@ -120,9 +119,9 @@ a{
   height: 120px;
   width: 120px;
   padding: 14px;
-  font-weight: bold;
+  font-weight: 500;
   border: none;
-  border-radius: 10px;
+  border-radius: 50%;
   gap: 8px;
   box-shadow:
   2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
@@ -135,6 +134,7 @@ a{
 .btn-project-link:hover{
   cursor: pointer;
   background-color: rgb(0, 255, 157);
+  color: #f5f5f5;
 }
 
 .project-icon{
@@ -142,20 +142,23 @@ a{
   height: 48px;
 }
 
-.game-icon{
-  width: 90px;
-  height: 90px;
-  border-radius: 10px;
-}
 
 .footer{
   height: 100px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 16px;
   font-weight: lighter;
-  background-color: rgb(22, 22, 22);
   color: #f5f5f5;
+  padding: 50px;
 }
+
+#projects, #technologies{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+
