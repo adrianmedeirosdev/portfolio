@@ -34,8 +34,21 @@ a{
   gap: 48px;
   padding: 48px;
   border-radius: 1rem;
-  background-color: transparent;
-  border: 1px solid #f5f5f5;
+  background-image: linear-gradient(rgb(0, 255, 157), rgb(38, 0, 255)),
+                    linear-gradient( rgb(0, 255, 157) 0%, rgb(38, 0, 255) 100%);
+}
+
+
+.top{
+  display: flex;
+  gap: 48px;
+  align-items: flex-end;
+}
+
+#projects h1{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 28px;
 }
 
 .me-container{
@@ -58,7 +71,6 @@ a{
   width: 168;
   height: 168px;
   border-radius: 100%;
-  border: 1px solid inherit;
   box-shadow:
   2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
   6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
@@ -68,6 +80,7 @@ a{
   100px 100px 80px rgba(0, 0, 0, 0.07)
 ;
 }
+
 
 .social-medias{
   display: flex;
@@ -82,7 +95,7 @@ a{
 .social-icon{
   width: 24px;
   height: 24px;
-  color: #f5f5f5;
+color: #f5f5f5;
 }
 
 .social-icon:hover{
@@ -92,10 +105,6 @@ a{
 }
 
 
-.technologies-container{
-  display: flex;
-  gap: 28px;
-}
 
 .dev-icon{
   height: 48px;
@@ -105,6 +114,11 @@ a{
 .wrapper{
   display: flex;
   gap: 28px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
 }
 
 .wrapper a{
