@@ -23,7 +23,7 @@ This project was developed using these technologies:
 - HTML, CSS e JS
 - Git e Github
 
-You can take a look by <a href="https://adrianmedeirosdev.github.io/mini-portifolio" target="_blank">clicking here</a>.
+You can take a look by <a href="https://adrianmedeirosdev.github.io/mini-portfolio" target="_blank">clicking here</a>.
 
 ## :memo: License
 
