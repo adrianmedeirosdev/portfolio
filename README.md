@@ -14,7 +14,7 @@
 
 This project was developed using these technologies:
 
-- HTML, CSS and JS
+- HTML and CSS
 - Git and Github
 
 You can take a look by <a href="https://adrianmedeirosdev.github.io/mini-portfolio" target="_blank">clicking here</a>.
