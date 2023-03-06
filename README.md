@@ -1,7 +1,7 @@
 # 💻 Mini-portfolio
 
 <p>
-  <img  src=".github/portfolio.png" >
+  <img  src=".github/mini-port.png" >
 </p>
 
 ### 🚀 Technologies
